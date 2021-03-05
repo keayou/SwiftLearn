@@ -7,6 +7,27 @@
 
 import Foundation
 
+protocol Toggleable{
+    mutating func toggle()
+}
+
+enum Lightbulb: Toggleable {
+    
+    case on
+    case off
+    
+    mutating func toggle() {
+        switch self {
+        case .on:
+            self = .off
+        case .off:
+            self = .on
+        }
+    }
+}
+
+
+
 enum TextAlignment {
     case left
     case right

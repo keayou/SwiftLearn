@@ -14,6 +14,12 @@
 		4450D6D625B96764007441F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450D6D425B96764007441F2 /* Main.storyboard */; };
 		4450D6D825B96765007441F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4450D6D725B96765007441F2 /* Assets.xcassets */; };
 		4450D6DB25B96765007441F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450D6D925B96765007441F2 /* LaunchScreen.storyboard */; };
+		4474E59825ECC1D20051DD28 /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E59725ECC1D20051DD28 /* ErrorHandling.swift */; };
+		4474E59C25ECE3F30051DD28 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E59B25ECE3F30051DD28 /* Extensions.swift */; };
+		4474E59F25ECF85C0051DD28 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E59E25ECF85C0051DD28 /* Generics.swift */; };
+		4474E5A225EE45DE0051DD28 /* ProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E5A125EE45DE0051DD28 /* ProtocolExtensions.swift */; };
+		4474E5A525EF8F800051DD28 /* EquatableComparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4474E5A425EF8F800051DD28 /* EquatableComparable.swift */; };
+		4483B96325E79B460085D6E4 /* ProtocolsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4483B96225E79B460085D6E4 /* ProtocolsClass.swift */; };
 		44ACD34825CBE0AE002807E9 /* ValueVsRefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44ACD34725CBE0AE002807E9 /* ValueVsRefs.swift */; };
 		44DF723F25C2A1B0007681F9 /* TownClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF723E25C2A1B0007681F9 /* TownClass.swift */; };
 		44DF724425C2A8F7007681F9 /* MonsterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DF724325C2A8F7007681F9 /* MonsterClass.swift */; };
@@ -30,6 +36,12 @@
 		4450D6D725B96765007441F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4450D6DA25B96765007441F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4450D6DC25B96765007441F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4474E59725ECC1D20051DD28 /* ErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
+		4474E59B25ECE3F30051DD28 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4474E59E25ECF85C0051DD28 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		4474E5A125EE45DE0051DD28 /* ProtocolExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolExtensions.swift; sourceTree = "<group>"; };
+		4474E5A425EF8F800051DD28 /* EquatableComparable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableComparable.swift; sourceTree = "<group>"; };
+		4483B96225E79B460085D6E4 /* ProtocolsClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsClass.swift; sourceTree = "<group>"; };
 		44ACD34725CBE0AE002807E9 /* ValueVsRefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueVsRefs.swift; sourceTree = "<group>"; };
 		44DF723E25C2A1B0007681F9 /* TownClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownClass.swift; sourceTree = "<group>"; };
 		44DF724325C2A8F7007681F9 /* MonsterClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterClass.swift; sourceTree = "<group>"; };
@@ -74,6 +86,12 @@
 				44DF724325C2A8F7007681F9 /* MonsterClass.swift */,
 				44DF724725C2B4E1007681F9 /* ZombieClass.swift */,
 				44ACD34725CBE0AE002807E9 /* ValueVsRefs.swift */,
+				4483B96225E79B460085D6E4 /* ProtocolsClass.swift */,
+				4474E59725ECC1D20051DD28 /* ErrorHandling.swift */,
+				4474E59B25ECE3F30051DD28 /* Extensions.swift */,
+				4474E59E25ECF85C0051DD28 /* Generics.swift */,
+				4474E5A125EE45DE0051DD28 /* ProtocolExtensions.swift */,
+				4474E5A425EF8F800051DD28 /* EquatableComparable.swift */,
 				4450D6D425B96764007441F2 /* Main.storyboard */,
 				4450D6D725B96765007441F2 /* Assets.xcassets */,
 				4450D6D925B96765007441F2 /* LaunchScreen.storyboard */,
@@ -157,8 +175,14 @@
 				44ACD34825CBE0AE002807E9 /* ValueVsRefs.swift in Sources */,
 				4450D6D125B96764007441F2 /* SceneDelegate.swift in Sources */,
 				44DF723F25C2A1B0007681F9 /* TownClass.swift in Sources */,
+				4474E5A225EE45DE0051DD28 /* ProtocolExtensions.swift in Sources */,
+				4483B96325E79B460085D6E4 /* ProtocolsClass.swift in Sources */,
 				44DF724825C2B4E1007681F9 /* ZombieClass.swift in Sources */,
+				4474E59825ECC1D20051DD28 /* ErrorHandling.swift in Sources */,
 				44DF724425C2A8F7007681F9 /* MonsterClass.swift in Sources */,
+				4474E59F25ECF85C0051DD28 /* Generics.swift in Sources */,
+				4474E59C25ECE3F30051DD28 /* Extensions.swift in Sources */,
+				4474E5A525EF8F800051DD28 /* EquatableComparable.swift in Sources */,
 				443D5C9C25C114A1006D1311 /* Enumerations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

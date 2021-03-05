@@ -375,6 +375,26 @@ class ViewController: UIViewController {
 
         ValueVsRefs()
         
+        
+        let data = [
+            ["Joe", "30", "6"],
+            ["Karen", "40", "18"],
+            ["Fred", "50", "20"],
+        ]
+        let proInstance = ProtocolsCls()
+        
+        proInstance.printTable(data, withColumnLabels: "Employee Name", "Age", "Years of Experience")
+        
+        
+        var department = Department(name: "Engineering")
+        department.add(Person(name: "Joe", age: 30, yearOfExperinece: 6))
+        department.add(Person(name: "Karen", age: 40, yearOfExperinece: 12))
+        department.add(Person(name: "FK", age: 50, yearOfExperinece: 15))
+
+        proInstance.printTable2(department)
+        
+        Generics().genericsTest()
+        
     }
     
     
